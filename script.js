@@ -23,9 +23,9 @@ function createConfettiPiece() {
   return {
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height - canvas.height,
-    r: Math.random() * 6 + 4,
+    r: Math.random() * 10 + 4,
     color: colors[Math.floor(Math.random() * colors.length)],
-    speed: Math.random() * 3 + 2,
+    speed: Math.random() * 6 + 2,
     drift: (Math.random() - 0.5) * 2
   };
 }
